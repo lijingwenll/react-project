@@ -1,0 +1,29 @@
+*{
+  margin:0;
+  padding:0;
+}
+ul,li,ol{
+  list-style: none;
+}
+i,em{
+  font-style: normal;
+}
+b,strong{
+  font-weight: 100;
+}
+a,u{
+  text-decoration: none;
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after{
+  content:"";
+  clear:both;
+  display:block;
+  height:0;
+  overflow:hidden;
+  visibility: hidden;
+  zoom:1;
+}

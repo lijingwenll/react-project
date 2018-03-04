@@ -1,0 +1,102 @@
+/*header*/
+.Header-top{
+  width:100%;
+  height: 1rem;
+  background:#000;
+}
+.header-flims,.header-city,.header-people{
+  width:0.2rem;
+  height:0.9rem;
+  color: #999;
+  font-size:12px!important;
+  line-height: 1rem;
+  float:left;
+  padding:0.1rem 0.4rem 0 0.4rem;
+}
+.header-people{
+  font-size:14px!important;
+  font-weight: 900;
+  width:0.7rem;
+  padding:0
+}
+.header-city{
+  height:0.9rem;
+  padding:0.1rem;
+}
+.flims,.city{
+  float:left;
+  color:#fff;
+  font-size:16px!important;
+  height:1rem;
+  line-height: 1rem;
+}
+.city{
+  color:#999;
+}
+.header-left{
+  float:left;
+  width:2.5rem;
+  height:1rem;
+}
+.header-center{
+  float:right;
+  width:1rem;
+  height:1rem;
+  line-height: 1rem;
+}
+.header-right{
+  float:right;
+  width:0.7rem;
+  height:0.9rem;
+  line-height: 1rem;
+  padding-top:0.1rem;
+  text-align: center;
+}
+/*右侧菜单*/
+.Header-top .right-menu{
+  width:3.5rem;
+  min-height:11rem;
+  background:#000;
+  color:#fff;
+  font-size:16px;
+  position:fixed;
+  top:0.9rem;
+  z-index: 99;
+}
+.Header-top .right-menu .MenuMap{
+  width:3.1rem;
+  height:0.9rem;
+  line-height: 0.9rem;
+  display: inline-block;
+  border-bottom:1px solid #666;
+  padding-left:0.4rem;
+}
+.right-menu .MenuMap .MenuLeft{
+  float:left;
+  color:#999;
+}
+.right-menu .MenuMap .MenuRight{
+  float:right;
+  padding-right:0.5rem;
+  color:#999;
+  font-size: 12px!important;
+}
+/*动画*/
+/*进入动画起点*/
+.animation-enter {
+  margin-left:-4rem;
+}
+/*进入动画起点*/
+.animation-enter.animation-enter-active {
+  margin-left:0rem;
+  transition: margin-left 500ms ease-in;
+}
+/*离开动画起点*/
+.animation-leave {
+  margin-left:0rem;
+}
+/*离开动画起点*/
+.animation-leave.animation-leave-active {
+  margin-left:-4rem;
+  transition: margin-left 300ms ease-in;
+}
